@@ -1,0 +1,34 @@
+Object Oriented Programming
+Assignment #4
+1
+A. Define a class Person, and two inherited classes: Professor and 
+Student.
+ The base class Person has two data members: name (a string) and
+id (an int), a constructor, and a member function displayPerson()
+to display name and id.
+ The derived class Student has a data member nPapers (an int
+represents the no. of research papers published by the student and
+his/her supervisor), a constructor, and a member function: paper()
+that returns the no. of papers.
+ The derived class Professor has two data members: StudentList
+(an array of Student objects that holds the students supervised by
+the professor) and nStudent (an int represents the no. of those
+students), a constructor, and three member functions:
+registerStudent() that accepts a Student object and enters it in the
+array StudentList, Total() that calculates and returns the total no.
+of papers published by the professor and his students, and
+displayStudent() that displays the data of the students supervised
+by the professor.
+B. Write a main program that reads a professor's name and id, and
+creates a Professor object for that professor. Then, the programs read a
+series of students' names, ids, and no. of papers, until the name XXX is
+entered. For each student, a Student object is created and entered to the
+array StudentList of the Professor object by registering that student with
+the professor. After all students have been entered, the data of the
+students supervised by the professor are displayed, then the total no. of
+papers published by the professor and his students is calculated and
+displayed.
+C. Update class account add friend function :
+Friend double transfer (account acct1, account acct2, double amt)
+To transfer amount form second account, if it less than or equal balance
+of the second account, and add it to first account and then returns amount.
